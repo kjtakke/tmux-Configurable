@@ -41,3 +41,33 @@
 | `tmux server-info` | Dump server diagnostics | Diagnostics |
 | `tmux list-commands` | List all tmux commands with help | Help & Docs |
 | `tmux list-keys` | Show all active key bindings | Help & Docs |
+
+| Keybinding (Prefix + ...) | Action | Category |
+|---------------------------|--------|----------|
+| `Ctrl + b` then `?`       | Show all key bindings | Help |
+| `Ctrl + b` then `d`       | Detach from session | Session Mgmt |
+| `Ctrl + b` then `s`       | List sessions | Session Mgmt |
+| `Ctrl + b` then `$`       | Rename current session | Session Mgmt |
+| `Ctrl + b` then `c`       | Create a new window | Window Mgmt |
+| `Ctrl + b` then `,`       | Rename current window | Window Mgmt |
+| `Ctrl + b` then `&`       | Kill current window | Window Mgmt |
+| `Ctrl + b` then `p`       | Previous window | Window Mgmt |
+| `Ctrl + b` then `n`       | Next window | Window Mgmt |
+| `Ctrl + b` then `l`       | Last (previously used) window | Window Mgmt |
+| `Ctrl + b` then `w`       | Choose window from list | Window Mgmt |
+| `Ctrl + b` then `%`       | Split pane vertically (side-by-side) | Pane Mgmt |
+| `Ctrl + b` then `"`       | Split pane horizontally (top/bottom) | Pane Mgmt |
+| `Ctrl + b` then `x`       | Kill current pane | Pane Mgmt |
+| `Ctrl + b` then `o`       | Go to next pane | Pane Mgmt |
+| `Ctrl + b` then `;`       | Go to last active pane | Pane Mgmt |
+| `Ctrl + b` then `q`       | Show pane numbers | Pane Mgmt |
+| `Ctrl + b` then `{`       | Move pane left | Pane Mgmt |
+| `Ctrl + b` then `}`       | Move pane right | Pane Mgmt |
+| `Ctrl + b` then `z`       | Toggle zoom on current pane | Pane Mgmt |
+| `Ctrl + b` then `Space`   | Cycle through layouts | Layouts |
+| `Ctrl + b` then `t`       | Show a clock in the pane | Misc |
+| `Ctrl + b` then `[`       | Enter copy mode | Copy & Scrollback |
+| `Ctrl + b` then `]`       | Paste from buffer | Copy & Scrollback |
+| `Ctrl + b` then `:`       | Enter command mode | Advanced |
+| `Ctrl + b` then `!`       | Break pane into a new window | Window Mgmt |
+| `Ctrl + b` then `Ctrl + Arrow` | Resize pane (one cell) | Pane Mgmt |
