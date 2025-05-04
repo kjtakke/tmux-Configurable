@@ -70,4 +70,8 @@
 | `Ctrl + b` then `]`       | Paste from buffer | Copy & Scrollback |
 | `Ctrl + b` then `:`       | Enter command mode | Advanced |
 | `Ctrl + b` then `!`       | Break pane into a new window | Window Mgmt |
-| `Ctrl + b` then `Ctrl + Arrow` | Resize pane (one cell) | Pane Mgmt |
+| `Ctrl + b` then `Ctrl + ←` | Resize pane left (narrower) | Pane Mgmt |
+| `Ctrl + b` then `Ctrl + →` | Resize pane right (wider) | Pane Mgmt |
+| `Ctrl + b` then `Ctrl + ↑` | Resize pane up (taller) | Pane Mgmt |
+| `Ctrl + b` then `Ctrl + ↓` | Resize pane down (shorter) | Pane Mgmt |
+
