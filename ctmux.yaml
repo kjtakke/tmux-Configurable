@@ -1,0 +1,7 @@
+layout:
+  - split: none
+    command: echo 'Left'
+  - split: horizontal
+    command: echo 'Right Top'
+  - split: vertical
+    command: echo 'Right Bottom'
